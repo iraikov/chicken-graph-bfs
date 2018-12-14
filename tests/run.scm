@@ -21,7 +21,7 @@
 ;;
 
 (import scheme (chicken base) (chicken format)
-        srfi-1 srfi-13 digraph graph-bfs test )
+        srfi-1 digraph graph-bfs test )
 
 (define used-by
   (list 
